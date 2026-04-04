@@ -74,7 +74,7 @@
   justify-self: end;
   align-self: start;
   margin-top: 65px;
-  color: var(--accent-color);
+  color: var(--corner-color);
 }
 
 .header__theme-menu-list {
@@ -300,7 +300,7 @@
   }
 
   .main {
-    padding: 40px 20px 60px;
+    padding: 60px 20px 60px;
     gap: 80px;
   }
 

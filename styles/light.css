@@ -2,12 +2,12 @@
   --accent-color: #ff8dcb;
   --title-color: #ffc2e6;
   --text-color: #353430;
-  --section-title-color: #353430;
+  --section-title-color: var(--text-color);
   --title-decor-bg: #ff8dcb;
   --title-decor-color: #353430;
   --cover-image: url('../images/cover-image-light.png');
   --bg-color: #fff1f7;
-  --corner-color: #ff8dcb;
+  --corner-color: var(--text-color);
   --hover-border-color: rgba(53, 52, 48, 0.4);
   --button-hover-border: rgba(53, 52, 48, 0.4);
 }
@@ -17,12 +17,12 @@
     --accent-color: #ff8dcb;
     --title-color: #ffc2e6;
     --text-color: #353430;
-    --section-title-color: #353430;
+    --section-title-color: var(--text-color);
     --title-decor-bg: #ff8dcb;
     --title-decor-color: #353430;
     --cover-image: url('../images/cover-image-light.png');
     --bg-color: #fff1f7;
-    --corner-color: #ff8dcb;
+    --corner-color: var(--text-color);
     --hover-border-color: rgba(53, 52, 48, 0.4);
     --button-hover-border: rgba(53, 52, 48, 0.4);
   }
