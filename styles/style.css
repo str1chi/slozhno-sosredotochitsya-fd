@@ -296,6 +296,7 @@
 
   .header__theme-menu-list {
     flex-direction: column;
+    margin-top: 0;
   }
 
   .main {
