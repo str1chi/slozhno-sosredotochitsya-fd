@@ -5,9 +5,8 @@
   --section-title-color: var(--accent-color);
   --title-decor-bg: var(--accent-color);
   --title-decor-color: #000028;
-  --hover-border-color: rgba(241, 178, 206, 0.4);
+  --hover-border-color: rgba(255, 0, 112, 0.4);
   --cover-image: url('../images/cover-image-dark.png');
   --bg-color: #000028;
   --corner-color: var(--accent-color);
-  --button-hover-border: rgba(241, 178, 206, 0.4);
 }

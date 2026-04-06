@@ -9,7 +9,6 @@
   --bg-color: #fff1f7;
   --corner-color: var(--text-color);
   --hover-border-color: rgba(53, 52, 48, 0.4);
-  --button-hover-border: rgba(53, 52, 48, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,6 +23,13 @@
     --bg-color: #fff1f7;
     --corner-color: var(--text-color);
     --hover-border-color: rgba(53, 52, 48, 0.4);
-    --button-hover-border: rgba(53, 52, 48, 0.4);
   }
+
+  :root:not(.theme-dark) .rec__label {
+    display: none;
+  }
+}
+
+:root.theme-light .rec__label {
+  display: none;
 }
